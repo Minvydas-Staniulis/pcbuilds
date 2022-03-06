@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" 
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <title>PC Builds</title>
+</head>
+<body id="home">
+    <header class="hero">
+        <div id="navbar" class="navbar top">
+            <h1 class="logo">
+                <img src="images/logo/pcbuildstrans.jpg" alt="pcbuilds">
+            </h1>
+        </div>
+
+        <div class="content">
+            <h1>PC Builds</h1>
+            <p>Susitiksime greitai!</p>
+        </div>
+    </header>
+
+    <footer class="footer bg-dark">
+        <div class="social">
+            <a href="https://www.facebook.com/groups/1835508580061169"><i class="i fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.twitter.com"><i class="i fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.youtube.com"><i class="i fab fa-youtube fa-2x"></i></a>
+            <a href="https://linkedin.com"><i class="i fab fa-linkedin fa-2x"></i></a>
+        </div>
+        <p>Copyright &copy; 2021 - PC Builds Lietuva</p>
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"> 
+</script>
+    <div id="cursor"></div>
+
+    <script>
+    var cursor = document.getElementById("cursor");
+
+    document.onmousemove = function(e) {
+        cursor.style.left = (e.pageX - 50) + "px";
+        cursor.style.top = (e.pageY - 50) + "px";
+        cursor.style.display = "block";
+    }
+</script>
+    <script>
+        const navbar = document.getElementById('navbar');
+        let scrolled = false;
+
+        window.onscroll = function() {
+            if(window.pageYOffset > 100) {
+                navbar.classList.remove('top');
+                if(!scrolled) {
+                    navbar.style.transform = 'translateY(-70px)';
+                }
+                setTimeout(function() {
+                    navbar.style.transform = 'translateY(0)';
+                    scrolled = true;
+                }, 200);
+            } else {
+                navbar.classList.add('top');
+                scrolled = false;
+            }
+        };
+
+        $('#navbar a, .btn').on('click', function (e) {
+            if (this.hash !== '') {
+                e.preventDefault();
+                const hash = this.hash;
+                $('html, body').animate (
+                    {
+                        scrollTop: $(hash).offset().top - 100,
+                    },
+                    800
+                );
+            }
+        });
+    </script>
+</body>
+</html>

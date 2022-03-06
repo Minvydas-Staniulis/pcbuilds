@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products>
+  <phones>
+    <product id="15"></product>
+    <title><![CDATA[Apple iPhone 5S 16GB Silver]]></title>
+    <item_price><![CDATA[320.00]]></item_price>
+    <manufacturer><![CDATA[Apple]]></manufacturer>
+    <categories>
+        <category><![CDATA[Telefonai/Mobilieji telefonai]]></category>
+    </categories>
+    <description><![CDATA[Description of product]]></description>
+    <stock><![CDATA[9]]></stock>
+    <ean_code><![CDATA[0872315760]]></ean_code>
+    <manufacturer_code><![CDATA[ABC123-999]]></manufacturer_code>
+    <model><![CDATA[5S 16GB]]></model>
+    <specs>
+        <spec name="Vidine atmintis" value="storage_capacity">
+            <![CDATA[16 GB]]>
+        </spec>
+        <spec name="Ekrano istrizaine(coliais)" value="screen_size">
+            <![CDATA[4.7"]]>
+        </spec>
+        <spec name="Spalva" value="color">
+            <![CDATA[Silver]]>
+        </spec>
+    </specs>
+    <delivery_time>2</delivery_time>
+    <delivery_text>0 - 2 d.d.</delivery_text>
+   </phones>
+   <phones>
+    <product id="15"></product>
+        <title><![CDATA[Apple iPhone 11 64GB Silver]]></title>
+        <item_price><![CDATA[850.00]]></item_price>
+        <manufacturer><![CDATA[Apple]]></manufacturer>
+        <categories>
+            <category><![CDATA[Telefonai/Mobilieji telefonai]]></category>
+        </categories>
+        <description><![CDATA[Description of product]]></description>
+        <stock><![CDATA[11]]></stock>
+        <ean_code><![CDATA[0872315760]]></ean_code>
+        <manufacturer_code><![CDATA[ABC123-999]]></manufacturer_code>
+        <model><![CDATA[5S 16GB]]></model>
+        <specs>
+            <spec name="Vidine atmintis" value="storage_capacity">
+                <![CDATA[64 GB]]>
+            </spec>
+            <spec name="Ekrano istrizaine(coliais)" value="screen_size">
+                <![CDATA[4.7"]]>
+            </spec>
+            <spec name="Spalva" value="color">
+                <![CDATA[Silver]]>
+            </spec>
+        </specs>
+        <delivery_time>2</delivery_time>
+        <delivery_text>0 - 2 d.d.</delivery_text>
+    </phones>
+    <phones>
+    <product id="15"></product>
+        <title><![CDATA[Apple iPhone 11 64GB Silver]]></title>
+        <item_price><![CDATA[850.00]]></item_price>
+        <manufacturer><![CDATA[Apple]]></manufacturer>
+        <categories>
+            <category><![CDATA[Telefonai/Mobilieji telefonai]]></category>
+        </categories>
+        <description><![CDATA[Description of product]]></description>
+        <stock><![CDATA[11]]></stock>
+        <ean_code><![CDATA[0872315760]]></ean_code>
+        <manufacturer_code><![CDATA[ABC123-999]]></manufacturer_code>
+        <model><![CDATA[5S 16GB]]></model>
+        <specs>
+            <spec name="Vidine atmintis" value="storage_capacity">
+                <![CDATA[64 GB]]>
+            </spec>
+            <spec name="Ekrano istrizaine(coliais)" value="screen_size">
+                <![CDATA[4.7"]]>
+            </spec>
+            <spec name="Spalva" value="color">
+                <![CDATA[Silver]]>
+            </spec>
+        </specs>
+        <delivery_time>2</delivery_time>
+        <delivery_text>0 - 2 d.d.</delivery_text>
+    </phones>
+    <phones>
+    <product id="15"></product>
+        <title><![CDATA[Apple iPhone 11 64GB Silver]]></title>
+        <item_price><![CDATA[850.00]]></item_price>
+        <manufacturer><![CDATA[Apple]]></manufacturer>
+        <categories>
+            <category><![CDATA[Telefonai/Mobilieji telefonai]]></category>
+        </categories>
+        <description><![CDATA[Description of product]]></description>
+        <stock><![CDATA[11]]></stock>
+        <ean_code><![CDATA[0872315760]]></ean_code>
+        <manufacturer_code><![CDATA[ABC123-999]]></manufacturer_code>
+        <model><![CDATA[5S 16GB]]></model>
+        <specs>
+            <spec name="Vidine atmintis" value="storage_capacity">
+                <![CDATA[64 GB]]>
+            </spec>
+            <spec name="Ekrano istrizaine(coliais)" value="screen_size">
+                <![CDATA[4.7"]]>
+            </spec>
+            <spec name="Spalva" value="color">
+                <![CDATA[Silver]]>
+            </spec>
+        </specs>
+        <delivery_time>2</delivery_time>
+        <delivery_text>0 - 2 d.d.</delivery_text>
+    </phones>
+    <phones>
+    <product id="15"></product>
+        <title><![CDATA[Apple iPhone 11 64GB Silver]]></title>
+        <item_price><![CDATA[850.00]]></item_price>
+        <manufacturer><![CDATA[Apple]]></manufacturer>
+        <categories>
+            <category><![CDATA[Telefonai/Mobilieji telefonai]]></category>
+        </categories>
+        <description><![CDATA[Description of product]]></description>
+        <stock><![CDATA[11]]></stock>
+        <ean_code><![CDATA[0872315760]]></ean_code>
+        <manufacturer_code><![CDATA[ABC123-999]]></manufacturer_code>
+        <model><![CDATA[5S 16GB]]></model>
+        <specs>
+            <spec name="Vidine atmintis" value="storage_capacity">
+                <![CDATA[64 GB]]>
+            </spec>
+            <spec name="Ekrano istrizaine(coliais)" value="screen_size">
+                <![CDATA[4.7"]]>
+            </spec>
+            <spec name="Spalva" value="color">
+                <![CDATA[Silver]]>
+            </spec>
+        </specs>
+        <delivery_time>2</delivery_time>
+        <delivery_text>0 - 2 d.d.</delivery_text>
+    </phones>
+</products>
